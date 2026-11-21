@@ -1,3 +1,9 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.gz binary
+*.json text eol=lf
+*.cff text eol=lf
 # Keep exact bytes: checker hashes are recorded in the certificate ledgers, and sha256sum -c needs LF lines.
 code/** -text
 certs/** -text
