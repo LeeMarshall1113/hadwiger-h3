@@ -1,6 +1,6 @@
 #!/bin/bash
 # Quick check (about 3 min, one thread, under 1 GB). Needs Python 3 with numpy and scipy. No download needed.
-#   cd results/hadwiger-h3/code && bash check_sample.sh
+#   cd code && bash check_sample.sh
 # It checks everything except the bulk of the leaves:
 #   1. the corner counterexample to Prymak's Lemma 2.4(ii) (exact);
 #   2. the counterexample showing Prymak's region D is not a fundamental domain (exact);

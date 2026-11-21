@@ -67,7 +67,7 @@ Details in `PROOF.md` §11.
 **Quick check, no download** (about 4 min, one thread, under 1 GB):
 
 ```
-cd results/hadwiger-h3/code && bash check_sample.sh
+cd code && bash check_sample.sh
 ```
 
 It checks both counterexamples above exactly, derives D\* and the 570 extension boxes, checks that every orbit of
@@ -81,7 +81,7 @@ centre (1,771 leaves, 118 of them chord leaves) and six other start boxes, copie
 2. Run
 
    ```
-   cd results/hadwiger-h3/code && DATA=/path/to/archives WORKERS=8 bash check_all.sh
+   cd code && DATA=/path/to/archives WORKERS=8 bash check_all.sh
    ```
 
 It checks the archive and chunk hashes against `certs/SHA256SUMS.*`, then runs `certcheck_fast.py` (exact,
@@ -156,3 +156,8 @@ for the 87,828 extension leaves; `replay_strict_SUMMARY.json` records 7,561,583 
 This work was generated with AI (Claude, from Anthropic), directed by Lee Marshall. It was checked by two
 separately written exact checkers and a Lean formalisation, and attacked by a hostile AI referee. It has not been
 through human peer review. Please check the computations yourself with the checkers provided.
+
+## Provenance
+
+This repository is the standalone home of the folder `results/hadwiger-h3` of
+https://github.com/LeeMarshall1113/ai-math-results (split with history from commit cabb9bf). The folder there is kept so that existing links and citations stay valid.

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this result, please cite this repository (and the Zenodo DOI of the release you used)."
+title: "Every convex body in R^3 is covered by 13 smaller homothetic copies (H_3 <= 13)"
+abstract: >-
+  Computer-assisted proof of the Hadwiger covering bound H_3 <= 13. Exact linear-programming certificate checked by two separately written exact checkers; the reduction from the certificate to the theorem is formalised in Lean 4, with the certificate check as a stated axiom. Checkers, Lean project, hashes and a sample; the full certificate is in a separate Zenodo dataset named in the README. AI-generated under Lee Marshall's direction; not peer reviewed.
+authors:
+  - family-names: Marshall
+    given-names: Lee
+type: software
+repository-code: "https://github.com/LeeMarshall1113/hadwiger-h3"
+keywords: ["convex geometry", "Hadwiger covering conjecture", "computer-assisted proof", "Lean 4", "certificates"]
