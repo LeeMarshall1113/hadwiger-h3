@@ -157,6 +157,14 @@ This work was generated with AI (Claude, from Anthropic), directed by Lee Marsha
 separately written exact checkers and a Lean formalisation, and attacked by a hostile AI referee. It has not been
 through human peer review. Please check the computations yourself with the checkers provided.
 
+## How to cite
+
+Lee Marshall, 2026, this repository (see `CITATION.cff`), with the DOI of the release you used.
+
+**Licence.** Code: MIT (`LICENSE`). Text, data and certificates: CC BY 4.0 (`LICENSE-CC-BY-4.0.md`).
+
+**If you build on this.** Please cite this repository and its DOI. If this result forms a substantial part of a paper, please get in touch about co-authorship before submission.
+
 ## Provenance
 
 This repository is the standalone home of the folder `results/hadwiger-h3` of
