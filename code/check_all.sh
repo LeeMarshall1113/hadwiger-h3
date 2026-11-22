@@ -41,7 +41,7 @@ run_sharded() {   # run_sharded CHECKER DIR NCHUNKS
     wait
 }
 
-echo "== 1. certcheck_fast.py (exact integer arithmetic, all leaves; 1% cross-checked by the rational reference)"
+echo "== 1. certcheck_fast.py (exact integer arithmetic, all leaves)"
 run_sharded certcheck_fast.py fullcert 197
 $PY certcheck_fast.py fullcert --verdict-only | tee _my_fast_verdict.txt
 grep -q "^COMPLETE AND VALID" _my_fast_verdict.txt || fail "certcheck_fast fullcert"

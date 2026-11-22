@@ -89,9 +89,16 @@ centre (1,771 leaves, 118 of them chord leaves) and six other start boxes, copie
    ```
 
 It checks the archive and chunk hashes against `certs/SHA256SUMS.*`, then runs `certcheck_fast.py` (exact,
-non-strict, with a 1% cross-check by the rational reference `certcheck.py`), `certcheck_ext.py` (orbit coverage),
+non-strict), `certcheck_ext.py` (orbit coverage),
 `certcheck_strict.py` (the Lean leaf predicate), the independent replay `replay/hcheck.py --strict`, and the quick
-check. `LEAN=1` also builds the Lean project.
+check. `LEAN=1` also builds the Lean project. The full check does not repeat the 1% cross-check against the
+rational reference `certcheck.py` that the original run made (its ledgers are kept in `ledgers_original/` after
+unpacking); the quick check cross-checks a small sample, and `--xcheck 0.01` on `certcheck_fast.py` or
+`certcheck_strict.py` repeats it on any chunk.
+
+**Clean-clone run.** On 2026-11-21/22 the full check was run from a fresh clone of commit `cabb9bf`, with archives
+matching the published SHA-256 sums: all stages passed (22.4 hours wall time with `WORKERS=2`; Lean not rebuilt
+in that run).
 
 **Lean.** `cd lean && lake exe cache get && lake build && lake env lean Hadwiger/Audit.lean`.
 
