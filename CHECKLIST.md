@@ -30,7 +30,7 @@
 
 ## 3. Novelty and context
 - [ ] Fresh novelty re-check on the day of publishing (arXiv, Zenodo, GitHub, OSF, web).
-- [ ] Papadoperakis 1999 obtained (ask Prymak, or interlibrary loan) and attribution checked.
+- [x] Papadoperakis 1999 obtained and attribution checked (2026-11-22): Lemma 3(a) and Lemma 4 as cited; Lemma 3 is credited there to Chakerian–Stein.
 - [ ] Level rating rechecked (private).
 
 ## 4. Ship (Lee decides; nothing pushed)

@@ -21,8 +21,11 @@ The lower bound is 8.
 The proof is built on Prymak's framework and uses his reduction, his bodies Q_P and his exact-LP certificate
 method throughout. That framework in turn rests on I. Papadoperakis (Geom. Dedicata 75 (1999) 275–285,
 H₃ ≤ 16): the minimal circumscribed parallelotope, the paired contact points (his Lemma 3(a)) and the reduction to
-covering the cube's edges and contact points (his Lemma 4). We have not seen Papadoperakis's paper; we use it as
-described by Prymak and by Prymak–Shepelska, and re-prove the two lemmas we use (`PROOF.md` §§1–2, and in Lean).
+covering the cube's edges and contact points (his Lemma 4). His Lemma 3 is credited there to Chakerian and Stein
+(Proc. Amer. Math. Soc. 18 (1967) 109–112), following a remark of Lassak. We re-prove the two lemmas we use
+(`PROOF.md` §§1–2, and in Lean). Checked against the original paper on 2026-11-22: our statement of Lemma 3(a) is
+his, and our Lemma R is his Lemma 4 with arbitrary subsets of int K in place of his boxes z + Q(v), which is the
+form Prymak uses.
 
 Other work in this line: M. Lassak (H₃ ≤ 20, 1998); A. Prymak and V. Shepelska (Papadoperakis's method in
 dimensions 4–6, J. Geom. 2020); F. Diao (dimensions 5–6); A. Arman, A. Bondarenko and A. Prymak (small
@@ -126,8 +129,9 @@ for the 87,828 extension leaves; `replay_strict_SUMMARY.json` records 7,561,583 
 
 * No human has refereed this work.
 * The JSON-to-Lean correspondence is checked by reading code, not formally.
-* Papadoperakis 1999 has not been read in the original. Nothing in the proof depends on it (both lemmas are
-  re-proved), but the attribution of those lemmas rests on Prymak's account.
+* Papadoperakis 1999 was read in the original on 2026-11-22 and the attribution of the two lemmas checked (see
+  above). Nothing in the proof depends on it: both lemmas are re-proved. The note `zenodo_note/note.pdf` predates
+  this check and does not yet mention Chakerian–Stein.
 * Lemma M is elementary and may be known; we did not find it.
 * The novelty search (`NOVELTY.md`) cannot rule out unindexed work.
 

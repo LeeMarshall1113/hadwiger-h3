@@ -50,7 +50,8 @@ Lemma 3(a). Lemma M is elementary and may be known to specialists.
 
 ## Limits
 
-* Papadoperakis 1999 was not obtained (closed access); the outline in Prymak–Shepelska (arXiv:1811.08962, §2) was
-  used.
+* Papadoperakis 1999 was not available when this search was made; the outline in Prymak–Shepelska
+  (arXiv:1811.08962, §2) was used. It was read on 2026-11-22: it contains no chord or width lemma of the kind used
+  here (its Lemmas 1–4 and Remark 5 concern shadows, the paired contact points and the edge-covering reduction).
 * MathSciNet, zbMATH full text and non-English sources were not searched.
 * A fresh search is to be repeated on the day of release.
