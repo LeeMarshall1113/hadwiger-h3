@@ -9,3 +9,4 @@ authors:
 type: software
 repository-code: "https://github.com/LeeMarshall1113/hadwiger-h3"
 keywords: ["convex geometry", "Hadwiger covering conjecture", "computer-assisted proof", "Lean 4", "certificates"]
+doi: 10.5281/zenodo.24451161

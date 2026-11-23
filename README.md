@@ -178,6 +178,8 @@ Lee Marshall, 2026, this repository (see `CITATION.cff`), with the DOI of the re
 
 **Licence.** Code: MIT (`LICENSE`). Text, data and certificates: CC BY 4.0 (`LICENSE-CC-BY-4.0.md`).
 
+**DOI (all versions):** https://doi.org/10.5281/zenodo.24451161 (Zenodo archive of this repository; each release also has its own DOI there).
+
 **If you build on this.** Please cite this repository and its DOI. If this result forms a substantial part of a paper, please get in touch about co-authorship before submission.
 
 ## Provenance
